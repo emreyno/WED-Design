@@ -1,0 +1,124 @@
+/* ---------navigation------- */
+
+a.nav-link{
+
+    color: #282828;
+}
+a.nav-link:hover{
+    color: #3024d9;
+}
+
+
+.about-title-con{
+background-color: rgba(227, 170, 26, 0.774);
+height: 128px;
+width: 530px;
+top:96%;
+z-index: 1;
+font-weight: bold;
+color: #f4f4f4;
+padding: 10px;
+}
+.about-title-label{
+    font-size: 64px;
+}
+
+
+div.header-about{
+    height: 637px;
+    background-image: url("./images/about-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+div.about{
+    height: 451px;
+    background-color: white;
+    color:rgb(18, 18, 18);
+}
+
+
+
+
+div.about-hr{
+    top: 85%;
+    height: 5px;
+    width: 360px;
+    background-color: #ff0000;
+}
+div.about-p{
+    font-size: 24px;
+    top: 50%;
+    width:930px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+}
+
+
+
+
+
+
+div.key-title{
+height: 200px;
+position: relative;
+}
+h1.key-title{
+    font-size: 96px;
+    top:30%;
+}
+h1.key-title,div.about-p, div.about-hr, .about-title-con{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;    
+}
+
+div.about{
+    position: relative;
+}
+
+
+div.key-people{
+    height: 530px;
+}
+div.key-people-con{
+    height: 453px;
+    width: 1120px;
+}
+
+div.key-people-indiv{
+    height: 453px;
+    background-color: rgba(227, 24, 24, 0.218);
+    border-radius: 30px;
+    border: 3px solid rgba(223, 37, 37, 0.495);
+}
+img.key-people-pic{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(223, 37, 37, 0.495);
+}
+h1.key-people-indiv{
+    margin-top: 10px;
+}
+p.key-people-quote{
+    font-size: 16px;
+    font-style: italic;
+}
+h1.key-people-indiv,p.key-people-indiv{
+    font-size: 24px;
+}
+
+button.key-people-btn{
+    background-color: blue;
+    margin-top: 200px;
+}
+
+div.key-slide{
+    height: 560px;
+    width: 100%;
+
+}
+

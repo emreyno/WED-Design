@@ -1,0 +1,129 @@
+/* -------contact form--------- */
+
+div.form-con{
+    height: 900px;
+    background-image: url(./images/football-player.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+form.form-box{
+    width: 698px;
+    background-color: rgba(196, 196, 196, 0.926);
+    padding-left: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+div.field{
+    width: 627px;
+}
+button.submit{
+    border-radius: 20px;
+    width: 218px;
+}
+
+
+div.title{
+    font-size: 48px;
+}
+/* ----------Head------------- */
+.head-con{
+    height: 637px;
+    background-image: url(./images/contact-header.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+div.head-image{
+    /* padding:50px 0px;  */
+    border:1px solid black;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+
+/* ---------navigation------- */
+
+a.nav-link{
+
+    color: #282828;
+}
+a.nav-link:hover{
+    color: #2454d9;
+}
+
+
+
+img.hello{
+    width: 643px;
+    height: 375px;
+    border-radius: 10px;
+}
+.page-name{
+    text-align: center;
+}
+.page-name{
+    margin: auto;
+    width:530px;
+    height: 128px;
+    background-color: rgba(227, 170, 26, 0.774);
+    position: absolute;
+    padding: 20px;
+    left: 50%;
+    top:96%;
+    transform: translate(-50%, -50%);
+
+
+   
+}
+h1.title-text{
+    font-size: 64px;
+    color:#f4f4f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.rectangle-2{
+    height: 700px;
+    background-color: #f4f4f4;
+    padding-top: 100px;
+}
+
+p.title{
+    font-weight: bold;
+    font-size: 36px;
+}
+p.address{
+    font-size: 24px;
+}
+div.title{
+  position:relative;
+  padding-top: 100px;
+} 
+
+.address-hr{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    height: 5px;
+    width: 360px;
+    background-color: #ff0000;
+}
+

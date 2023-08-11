@@ -1,0 +1,164 @@
+/* -------navigation--------- */
+a.nav-link{
+
+    color: #f4f4f4;
+}
+a.nav-link:hover{
+    color: #d03d3d;
+}
+
+
+
+
+
+/*--------features-header-----------*/
+.header-features{
+    height: 637px;
+    background-image: url("./images/features-header.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.features-title-con{
+    background-color: #001172b8;
+    height: 128px;
+    width: 530px;
+    top:96%;
+    z-index: 1;
+    font-weight: bold;
+    color: #f4f4f4;
+    padding: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;    
+    }
+    .features-title-label{
+        font-size: 64px;
+    }
+    
+
+
+/*----------features article---------*/
+div.features-article{
+    height: 451px;
+    background-color: white;
+    color:rgb(18, 18, 18);
+    position: relative;
+}
+
+div.features-hr{
+    top: 70%;
+    height: 5px;
+    width: 360px;
+    background-color: #ff0000;
+}
+div.features-p{
+    font-size: 24px;
+    top: 50%;
+    width:930px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+}
+
+
+
+
+
+
+/* ----------Carousel---------- */
+.carousel-item{
+    height: 700px;
+}
+.feature-slide-con .carousel-indicators button{
+    background-color: #f4f4f4a9;
+    height: 10px;
+    width: 50px;
+    border-radius: 4px;
+    border: 1px solid rgba(241, 241, 241, 0.893);
+    margin-left:10px;
+    margin-bottom: 60px;
+}
+.carousel-control-next .carousel-control-next-icon {
+    background-image: none;
+    background-image: url(./images/next.png);
+    background-size: cover;
+}
+.carousel-control-prev .carousel-control-prev-icon{
+    background-image: none;
+    background-image: url(./images/back.png);
+    background-size: cover;
+}
+.carousel-control-next .carousel-control-next-icon,.carousel-control-prev .carousel-control-prev-icon{
+
+    height: 168px;
+    width: 50px;
+}
+
+.feature-slide-con .carousel-indicators .active{
+    background-color: #f4f4f4;
+
+}
+
+
+div.feature-slide-con{
+    height: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+div.slide-features{
+    height: 700px;
+    background-image: url("./images/fanzone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#f4f4f4;
+}
+div.slide-features-2{
+    height: 700px;
+    background-image: url("./images/Feature-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#f4f4f4;
+}
+div.slide-features-3{
+    height: 700px;
+    background-image: url("./images/feature-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#f4f4f4;
+}
+div.slide-features-4{
+    height: 700px;
+    background-image: url("./images/feature-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#f4f4f4;
+}
+
+
+h1.features{
+    font-size: 96px;
+    font-weight: 400;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+}
+div.features-slide-p{
+    font-size: 30px;
+    top: 50%;
+    width: 826px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+}
+
+div.features-slide-title{
+    top: 20%;
+}
+div.features-slide-title,div.features-slide-p,div.features-hr,div.features-p{
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+

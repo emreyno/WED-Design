@@ -1,0 +1,236 @@
+
+/* -----------Become a member btn----------- */
+
+
+div.btn-member{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+
+}
+button.btn-member{
+    font-size: 40px;
+    color:aliceblue;
+    text-align: center;
+    border-radius: 50px;
+    width:378px;
+    border: 5px solid rgb(25, 123, 222);
+    background-color: transparent;
+}
+.btn-member:hover{
+    color:aliceblue;
+    border-radius: 50px;
+    background-color: transparent;
+    background-color:rgba(80, 131, 227, 0.181);
+}
+
+/* ---------navigation------- */
+
+a.nav-link{
+
+    color: #f4f4f4;
+}
+a.nav-link:hover{
+    color: #d03d3d;
+}
+
+/* ------------------ */
+div.header{
+    height: 700px;
+    background-image: url("./images/header-home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.header-title{
+    font-size: 24px;
+    top: 50%;
+    width: 740px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+    left: 35%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
+p.header-h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+
+
+div.article{
+    height: 451px;
+    background-color: white;
+    color:rgb(18, 18, 18);
+}
+div.header,div.article{
+
+    position: relative;
+}
+
+div.article-title{
+    font-size: 24px;
+    top: 30%;
+    width: 1141px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+
+}
+p.article-h1{
+    font-size: 59px;
+}
+
+div.article-hr{
+    top: 40%;
+    height: 5px;
+    width: 360px;
+    background-color: #ff0000;
+}
+div.article-p{
+    font-size: 24px;
+    top: 50%;
+    width: 930px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+}
+div.what{
+    height: 700px;
+    background-image: url("./images/what.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.what-p{
+    font-size: 24px;
+    top: 60%;
+    width: 740px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+
+}
+div.what-title{
+    font-size: 24px;
+    top: 30%;
+    width: 740px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+
+}
+
+p span.red{
+    font-weight:400;
+    color: #d81515;
+}
+p span.blue{
+    font-weight: bold;
+    color: rgb(24, 24, 219);
+    
+}
+p span.blue,p span.red{
+    font-size: 96px;
+}
+
+
+div.header,div.works,div.mission,div.what{
+    color: #f4f4f4;
+    position: relative;
+}
+
+div.article-title,div.article-p,div.what-p,div.what-title,div.works-p,div.works-hr,div.mission-p,div.mission-title,div.mission-hr,div.article-hr,div.slide-p,div.slide-title,div.platform-hr,h1.platform-con{
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+}
+div.works{
+    height: 763px;
+    background-image: url("./images/works.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.works-p{
+    font-size: 24px;
+    top: 50%;
+    width: 930px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+}
+
+div.works-hr{
+    top: 30%;
+    height: 5px;
+    width: 360px;
+    background-color: rgb(16, 16, 214);
+}
+
+div.mission{
+    height: 733px;
+    background-image: url("./images/Mission.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.mission-p{
+    font-size: 32px;
+    top: 60%;
+    width: 930px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+}
+
+div.mission-title{
+    top: 20%;
+    font-size: 64px;
+
+}
+p.h1{
+    font-size: 64px;
+}
+div.mission-hr{
+    top: 30%;
+    height: 5px;
+    width: 360px;
+    background-color: #ff0000;
+}
+
+div.platform-first-slide{
+    height: 450px;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+div.slide{
+    height: 400px;
+
+    position: relative;
+}
+
+
+div.slide-p{
+    font-size: 24px;
+    top: 60%;
+    width: 740px;
+    -webkit-text-stroke: .1px rgb(28, 28, 28);
+}
+
+div.slide-title{
+    top: 20%;
+    font-size: 36px;
+
+}
+div.platform-con{
+    position: relative;
+    height: 200px;
+    background-color: #f4f4f4;
+}
+h1.platform-con{
+    top:50%;
+    width: 1000px;
+    font-size: 96px;
+    font-weight: 400;
+}
+div.platform-hr{
+    bottom: 0%;
+    height: 5px;
+    width: 360px;
+    background-color: rgb(16, 16, 214);
+}

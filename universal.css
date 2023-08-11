@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: transparent;
+}
+
+/* ---------navigation--------- */
+img.logo{
+    float:left;
+    margin-top: 50px;
+}
+a.nav-link{
+    font-size: 24px;
+    /* color: #f4f4f4; */
+}
+a.nav-link:hover{
+    /* color: #d03d3d; */
+}
+li.nav-item{
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+
+
+
+/* -----------get in touch---------------- */
+img.get-in-touch{
+    width: 100%;
+    margin:0 auto;
+}
+div.get-in-touch{
+position: relative;
+
+}
+div.label-get-in-touch{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 96px;
+    color: aliceblue;
+    text-align: center;
+    width:1130px;
+}
+
+div.btn-get-in-touch{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+button.btn-get-in-touch{
+    font-size: 40px;
+    color:aliceblue;
+    text-align: center;
+    border-radius: 50px;
+    width:378px;
+    border: 5px solid rgb(214, 26, 26);
+    background-color: transparent;
+}
+.btn-get-in-touch:hover{
+    color:aliceblue;
+    border-radius: 50px;
+    background-color: transparent;
+    background-color:rgba(227, 80, 80, 0.181);
+}
+
+
+
+/* -----------footer----------- */
+div.footer{
+    height: 304px;
+    background-color: #2D2D2D;
+    text-align: center;
+    padding-top: 60px;
+}
+
+a.footer-link{
+    font-size: 24px;
+    color:aliceblue;
+}
+div.p-and-t{
+    color:aliceblue;
+    font-size: 16px;
+
+}
+a.p-and-t{
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 16px;
+}
+div.footer-con{
+    margin-bottom: 10px;
+}
